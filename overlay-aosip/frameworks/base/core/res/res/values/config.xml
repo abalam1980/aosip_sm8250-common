@@ -98,4 +98,9 @@
     <string name="config_defaultSystemCaptionsManagerService">com.google.android.as/com.google.android.apps.miphone.aiai.captions.SystemCaptionsManagerService</string>
     <string name="config_defaultSystemCaptionsService">com.google.android.as/com.google.android.apps.miphone.aiai.captions.CaptionsService</string>
      
+    <!-- OnePlus uses a proprietary vibrator hal to utilize the new powerful motor since the
+         OnePlus 7 Pro. This HAL expects a different format for the data instead of the usual (ms)
+         timing(the duration which the vibrator is expected to vibrate for). -->
+    <bool name="config_hasOnePlusHapticMotor">true</bool>
+
 </resources>
