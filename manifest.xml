@@ -79,6 +79,15 @@
         <fqname>@1.0::IGnss/gnss_vendor</fqname>
     </hal>
     <hal format="hidl">
+        <name>android.hardware.health</name>
+        <transport>hwbinder</transport>
+        <version>2.0</version>
+        <interface>
+            <name>IHealth</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
         <name>android.hardware.media.omx</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
@@ -202,7 +211,7 @@
     <hal format="hidl">
         <name>vendor.dolby.hardware.dms</name>
         <transport>hwbinder</transport>
-        <version>2.0</version>
+        <version>1.0</version>
         <interface>
             <name>IDms</name>
             <instance>default</instance>
@@ -252,6 +261,7 @@
             <name>IVendorFingerprintExtensions</name>
             <instance>default</instance>
         </interface>
+        <fqname>@1.0::IVendorFingerprintExtensions/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.oneplus.hardware.CameraMDMHIDL</name>
