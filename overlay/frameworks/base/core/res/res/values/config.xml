@@ -317,9 +317,6 @@
      <!-- Whether to show a custom view for FOD -->
     <bool name="config_needCustomFODView">true</bool>
     
-     <!-- Allow devices override audio panel location to the left side -->
-    <bool name="config_audioPanelOnLeftSide">true</bool>
-    
     <!-- List of biometric sensors on the device, in decreasing strength. Consumed by AuthService
          when registering authenticators with BiometricService. Format must be ID:Modality:Strength,
          where: IDs are unique per device, Modality as defined in BiometricAuthenticator.java,
